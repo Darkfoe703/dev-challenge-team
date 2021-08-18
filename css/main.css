@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400;1,700&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+* {
+	color: #000;
+}
+footer {
+	padding: 2px !important;
+	color: #A9A9A9;
+}
+.container {
+	margin: 0 auto;
+}
+.grid {
+	grid-template-columns: repeat(auto-fit,minmax(25%,1fr));
+}
+.first {
+	margin-top: 100px;
+}
+.title {
+	font-family: 'PT Serif', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 48px;
+}
+.about {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	padding-left: 50px;
+}
+.about p {
+	font-size: 18px;
+	max-width: 400px;
+	margin-top: 15px;
+}
+.subtitle {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.second {
+	margin-top: 80px;
+}
+.member {
+}
+.member-card {
+	display: flex;
+}
+.member-card img {
+	width: 70%;
+}
+.job {
+	font-family: 'PT Serif', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+	margin: 0 10px;
+	text-transform: uppercase;
+}
+.name {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+}
+.mid-hd {
+	margin-top: 100px;
+}
+.footer {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 17px;
+	margin: 4px auto;
+	padding: 2px;
+}
+.footer p, .footer a {
+	color: #A9A9A9 !important;
+}
+@media (max-width: 400px){
+	.grid {
+		grid-template-columns: repeat(auto-fit,minmax(35%,1fr));
+	}
+	.first {
+		display: block;
+		margin-top: 60px;
+	}
+	.about {
+		padding-left: 0;
+	}
+	.mid-hd {
+		margin-top: 0;
+	}
+	.mid-sm {
+		margin-top: 70px;
+	}
+	.footer {
+		margin-top: 70px;
+	}
+}
+@media (max-width: 750px){
+
+}
